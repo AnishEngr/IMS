@@ -1,0 +1,67 @@
+welcome As screen:
+
+    Label2 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =27
+        Text: =" WELCOME TO YOU ..."
+        Width: =560
+        X: =35
+        Y: =154
+        ZIndex: =1
+
+    Image4 As image:
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =154
+        Image: = 
+        ImagePosition: =ImagePosition.Fill
+        RadiusBottomLeft: =75
+        RadiusBottomRight: =75
+        RadiusTopLeft: =75
+        RadiusTopRight: =75
+        Width: =511
+        X: =73
+        Y: =311
+        ZIndex: =2
+
+    Image3 As image:
+        Height: =132
+        Image: ='IMS logo 2'
+        ImagePosition: =ImagePosition.Fill
+        Width: =427
+        X: =115
+        Y: =320
+        ZIndex: =3
+
+    Label2_1 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(109, 49, 162, 1)
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 0, 0, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =164
+        Size: =26
+        Text: |-
+            ="""Streamline, Simplify, Succeed
+             Master Your Inventory Today!"""
+        Width: =577
+        X: =40
+        Y: =538
+        ZIndex: =4
+
+    Button1 As button:
+        Color: =RGBA(241, 244, 249, 1)
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =60
+        OnSelect: =Navigate(welcome_1)
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        Size: =24
+        Text: ="GET's STARTED"
+        Width: =284
+        X: =173
+        Y: =817
+        ZIndex: =5
+

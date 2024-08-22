@@ -1,0 +1,118 @@
+Screen3 As screen:
+    BackgroundImage: ='12_arcticsolitude_dark'
+    ImagePosition: =ImagePosition.Fill
+
+    Icon2 As icon.ArrowLeft:
+        AutoDisableOnSelect: =false
+        BorderColor: =RGBA(241, 244, 249, 1)
+        Color: =RGBA(241, 244, 249, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 1)
+        FocusedBorderThickness: =0
+        Height: =36
+        Icon: =Icon.Import
+        OnSelect: =Navigate(login1)
+        Width: =49
+        X: =18
+        Y: =33
+        ZIndex: =1
+
+    Image6 As image:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =116
+        Image: ='IMS logo 2'
+        ImagePosition: =ImagePosition.Fill
+        Width: =272
+        X: =368
+        ZIndex: =2
+
+    Button4 As button:
+        Color: =RGBA(241, 244, 249, 1)
+        DisabledColor: =RGBA(227, 234, 243, 1)
+        DisabledFill: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(0, 0, 0, 1)
+        Font: =Font.'Lato Black'
+        Height: =70
+        RadiusBottomLeft: =40
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =40
+        Size: =25
+        Text: ="ADMIN's  LOGIN"
+        Width: =280
+        X: =186
+        Y: =271
+        ZIndex: =3
+
+    TextInput1 As text:
+        Default: =" "
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Lighter
+        Height: =60
+        HintText: ="Enter an Email "
+        RadiusBottomLeft: =30
+        RadiusTopRight: =30
+        Size: =21
+        Width: =500
+        X: =112
+        Y: =472
+        ZIndex: =4
+
+    TextInput1_1 As text:
+        Default: =" "
+        Font: =Font.'Lato Black'
+        Height: =60
+        HintText: ="Enter an Email "
+        RadiusBottomLeft: =30
+        RadiusTopRight: =30
+        Size: =21
+        Width: =500
+        X: =112
+        Y: =655
+        ZIndex: =5
+
+    Icon3 As icon.AddUser:
+        Color: =RGBA(241, 244, 249, 1)
+        Icon: =Icon.AddUser
+        X: =30
+        Y: =468
+        ZIndex: =6
+
+    Icon4 As icon.Lock:
+        Color: =RGBA(241, 244, 249, 1)
+        Icon: =Icon.Lock
+        X: =18
+        Y: =651
+        ZIndex: =7
+
+    Label6 As label:
+        Align: =Align.Right
+        Color: =RGBA(227, 234, 243, 1)
+        Height: =70
+        OnSelect: =Navigate(intro)
+        Size: =21
+        Text: ="Forget Password?"
+        Width: =560
+        X: =67
+        Y: =718
+        ZIndex: =8
+
+    Button5 As button:
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =58
+        OnSelect: |+
+            =
+                Navigate(home)
+              
+            
+            
+        RadiusBottomLeft: =39
+        RadiusBottomRight: =39
+        RadiusTopLeft: =39
+        RadiusTopRight: =39
+        Size: =24
+        Text: ="Next"
+        Width: =218
+        X: =217
+        Y: =939
+        ZIndex: =9
+

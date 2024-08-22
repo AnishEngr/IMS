@@ -1,0 +1,40 @@
+Screen1 As screen:
+
+    Image1 As image:
+        Height: =428
+        Image: ='476428566'
+        ImagePosition: =ImagePosition.Stretch
+        Width: =640
+        ZIndex: =1
+
+    Image2 As image:
+        Height: =320
+        Image: ='loading-spinning gif'
+        Width: =320
+        X: =147
+        Y: =549
+        ZIndex: =2
+
+    Label1 As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =21
+        Text: ="LOADING >>>"
+        Width: =560
+        X: =40
+        Y: =695
+        ZIndex: =3
+
+    Timer1 As timer:
+        AutoStart: =true
+        Duration: =1000
+        Height: =70
+        OnTimerEnd: =Navigate(welcome)
+        Visible: =false
+        Width: =280
+        X: =187
+        Y: =453
+        ZIndex: =4
+

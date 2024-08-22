@@ -1,0 +1,140 @@
+home As screen:
+    BackgroundImage: ='905130962_super'
+    ImagePosition: =ImagePosition.Fill
+
+    Image5 As image:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        BorderThickness: =2
+        Height: =75
+        Image: ='IMS LOGO'
+        ImagePosition: =ImagePosition.Fill
+        RadiusBottomLeft: =70
+        RadiusBottomRight: =70
+        RadiusTopLeft: =70
+        RadiusTopRight: =70
+        Width: =75
+        X: =24
+        Y: =25
+        ZIndex: =1
+
+    Label12 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =91
+        Size: =35
+        Text: =" IMS"
+        Width: =198
+        X: =207
+        Y: =17
+        ZIndex: =2
+
+    Rectangle2 As rectangle:
+        BorderThickness: =1
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =4
+        Width: =640
+        Y: =112
+        ZIndex: =3
+
+    Image7 As image:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(204, 231, 246, 1)
+        Height: =200
+        Image: ='Dashboarad icon img'
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
+        Width: =215
+        X: =24
+        Y: =471
+        ZIndex: =4
+
+    Image8 As image:
+        Height: =228
+        Image: ='IMS Anime img'
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        Y: =179
+        ZIndex: =5
+
+    Image7_1 As image:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =3
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =179
+        Image: =merchant_12341447
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Width: =204
+        X: =407
+        Y: =865
+        ZIndex: =6
+
+    Icon1 As icon.Settings:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =42
+        Icon: =Icon.Settings
+        Width: =58
+        X: =540
+        Y: =43
+        ZIndex: =7
+
+    Image5_2 As image:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =3
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =179
+        Image: ='Add Product img icon'
+        ImagePosition: =ImagePosition.Fill
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Width: =195
+        X: =39
+        Y: =865
+        ZIndex: =8
+
+    IconNewItem1_1 As icon.Add:
+        AccessibleLabel: =Self.Tooltip
+        AutoDisableOnSelect: =false
+        DisplayMode: =If(DataSourceInfo([@Sheet1], DataSourceInfo.CreatePermission), DisplayMode.Edit, DisplayMode.Disabled)
+        Height: =122
+        Icon: =Icon.Add
+        OnSelect: =NewForm(EditForm1);Navigate(EditScreen1, ScreenTransition.None)
+        PaddingBottom: =24
+        PaddingLeft: =24
+        PaddingRight: =24
+        PaddingTop: =24
+        TabIndex: =0
+        Tooltip: ="Create new item"
+        Width: =142
+        X: =65
+        Y: =894
+        ZIndex: =9
+
+    Image7_2 As image:
+        Height: =178
+        Image: ='User Icn_Img'
+        Width: =185
+        X: =234
+        Y: =671
+        ZIndex: =10
+
+    Image7_3 As image:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Height: =200
+        Image: ='product logo img'
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
+        Width: =215
+        X: =419
+        Y: =471
+        ZIndex: =11
+
