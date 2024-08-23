@@ -4,6 +4,7 @@
   "ControlUniqueIds": {
     "App": 1,
     "Arrow1": 8,
+    "Arrow1_1": 209,
     "AssignedTo_DataCard1": 113,
     "AssignedTo_DataCard2": 17,
     "AssignedTo_DataCard2_1": 168,
@@ -132,7 +133,6 @@
     "Image3_1": 5,
     "Image4": 92,
     "Image5": 74,
-    "Image5_1": 143,
     "Image5_2": 81,
     "Image6": 63,
     "Image6_1": 97,
@@ -205,7 +205,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/23/2024 09:42:52",
+  "HeaderLastSavedDateTimeUTC": "08/23/2024 09:48:57",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "b784b1b8-0fa7-4b62-9ed1-9314ad66be1c": "\"/providers/microsoft.powerapps/apis/shared_googlesheet/connections/d2a20f1d657d49ff8b1c8ce529110071\""
@@ -285,6 +285,7 @@
   "OverridablePropertiesEntry": {
     "App": {},
     "Arrow1": {},
+    "Arrow1_1": {},
     "AssignedTo_DataCard1": {},
     "AssignedTo_DataCard2": {},
     "AssignedTo_DataCard2_1": {},
@@ -413,7 +414,6 @@
     "Image3_1": {},
     "Image4": {},
     "Image5": {},
-    "Image5_1": {},
     "Image5_2": {},
     "Image6": {},
     "Image6_1": {},
@@ -489,6 +489,7 @@
   "PublishOrderIndices": {
     "App": 0,
     "Arrow1": 12,
+    "Arrow1_1": 12,
     "AssignedTo_DataCard1": 67,
     "AssignedTo_DataCard2": 96,
     "AssignedTo_DataCard2_1": 96,
@@ -617,7 +618,6 @@
     "Image3_1": 9,
     "Image4": 5,
     "Image5": 34,
-    "Image5_1": 49,
     "Image5_2": 41,
     "Image6": 15,
     "Image6_1": 24,
@@ -716,7 +716,7 @@
   "VolatileProperties": {
     "AnalysisLoadTime": 1.1650111,
     "ControlCount": {
-      "arrow": 1,
+      "arrow": 3,
       "button": 7,
       "dataCard": 1,
       "fluidGrid": 1,

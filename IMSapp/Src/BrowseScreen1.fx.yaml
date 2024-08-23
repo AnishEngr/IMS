@@ -180,22 +180,6 @@
         Y: =93
         ZIndex: =8
 
-    Image5_1 As image:
-        BorderColor: =RGBA(255, 255, 255, 1)
-        BorderThickness: =4
-        Height: =70
-        Image: ='IMS LOGO'
-        ImagePosition: =ImagePosition.Fill
-        OnSelect: =Navigate(home)
-        RadiusBottomLeft: =70
-        RadiusBottomRight: =70
-        RadiusTopLeft: =70
-        RadiusTopRight: =70
-        Width: =70
-        X: =11
-        Y: =10
-        ZIndex: =10
-
     IconNewItem1 As icon.Add:
         AccessibleLabel: =Self.Tooltip
         DisplayMode: =If(DataSourceInfo([@Sheet1], DataSourceInfo.CreatePermission), DisplayMode.Edit, DisplayMode.Disabled)
@@ -219,4 +203,13 @@
         X: =552
         Y: =110
         ZIndex: =12
+
+    Arrow1_1 As arrow.backArrow:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        BorderThickness: =3
+        Fill: =RGBA(255, 255, 255, 1)
+        OnSelect: =Navigate(home)
+        X: =14
+        Y: =19
+        ZIndex: =13
 

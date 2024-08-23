@@ -104,6 +104,10 @@ home As screen:
     Image7_2 As image:
         Height: =178
         Image: ='User Icn_Img'
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
         Width: =185
         X: =234
         Y: =671
@@ -120,7 +124,7 @@ home As screen:
         RadiusTopRight: =30
         Width: =215
         X: =419
-        Y: =471
+        Y: =482
         ZIndex: =11
 
     Image11 As image:
