@@ -50,8 +50,10 @@
             ZIndex: =5
 
         ColumnChart1 As barChart:
+            GridStyle: =GridStyle.All
             Height: =468
             Items: =Sheet1
+            NumberOfSeries: =7
             Width: =640
             Y: =135
             ZIndex: =6
@@ -62,7 +64,7 @@
             Items: =ColumnChart1.SeriesLabels
             Size: =18
             Width: =557
-            X: =83
+            X: =67
             Y: =684
             ZIndex: =7
 
