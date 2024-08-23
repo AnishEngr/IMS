@@ -91,6 +91,7 @@ home As screen:
         Height: =179
         Image: ='Add Product img icon'
         ImagePosition: =ImagePosition.Fill
+        OnSelect: =NewForm(EditForm1);Navigate(EditScreen1, ScreenTransition.None)
         RadiusBottomLeft: =20
         RadiusBottomRight: =20
         RadiusTopLeft: =20
@@ -99,24 +100,6 @@ home As screen:
         X: =39
         Y: =865
         ZIndex: =8
-
-    IconNewItem1_1 As icon.Add:
-        AccessibleLabel: =Self.Tooltip
-        AutoDisableOnSelect: =false
-        DisplayMode: =If(DataSourceInfo([@Sheet1], DataSourceInfo.CreatePermission), DisplayMode.Edit, DisplayMode.Disabled)
-        Height: =122
-        Icon: =Icon.Add
-        OnSelect: =NewForm(EditForm1);Navigate(EditScreen1, ScreenTransition.None)
-        PaddingBottom: =24
-        PaddingLeft: =24
-        PaddingRight: =24
-        PaddingTop: =24
-        TabIndex: =0
-        Tooltip: ="Create new item"
-        Width: =142
-        X: =65
-        Y: =894
-        ZIndex: =9
 
     Image7_2 As image:
         Height: =178
