@@ -48,7 +48,7 @@ welcome_1 As screen:
         Fill: =RGBA(241, 244, 249, 1)
         Font: =Font.'Lato Black'
         Height: =70
-        OnSelect: =Navigate(login2)
+        OnSelect: =Navigate(Screen3)
         RadiusBottomLeft: =50
         RadiusBottomRight: =50
         RadiusTopLeft: =50
@@ -57,7 +57,7 @@ welcome_1 As screen:
         Text: ="Admin "
         Width: =280
         X: =175
-        Y: =525
+        Y: =550
         ZIndex: =6
 
     Button3 As button:
@@ -65,7 +65,7 @@ welcome_1 As screen:
         Fill: =RGBA(241, 244, 249, 1)
         Font: =Font.'Lato Black'
         Height: =70
-        OnSelect: =Navigate(login2_1)
+        OnSelect: =Navigate(Screen3_1)
         RadiusBottomLeft: =50
         RadiusBottomRight: =50
         RadiusTopLeft: =50
@@ -74,6 +74,6 @@ welcome_1 As screen:
         Text: ="User"
         Width: =280
         X: =175
-        Y: =732
+        Y: =742
         ZIndex: =7
 

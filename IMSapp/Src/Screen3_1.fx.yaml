@@ -10,7 +10,7 @@ Screen3_1 As screen:
         FocusedBorderThickness: =0
         Height: =36
         Icon: =Icon.Import
-        OnSelect: =Navigate(login1)
+        OnSelect: =Navigate(welcome_1)
         Width: =49
         X: =18
         Y: =33
@@ -44,7 +44,7 @@ Screen3_1 As screen:
         RadiusTopLeft: =20
         RadiusTopRight: =40
         Size: =25
-        Text: ="ADMIN's  LOGIN"
+        Text: ="USER's  LOGIN"
         Width: =280
         X: =186
         Y: =271
@@ -108,7 +108,7 @@ Screen3_1 As screen:
         Height: =58
         OnSelect: |+
             =
-                Navigate(index)
+                Navigate(home)
               
             
             

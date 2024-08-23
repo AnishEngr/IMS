@@ -127,6 +127,9 @@
         ZIndex: =5
 
     TextSearchBox1 As text:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderStyle: =BorderStyle.Solid
+        BorderThickness: =4
         Default: =""
         DelayOutput: =true
         Height: =68
@@ -153,7 +156,7 @@
         Tooltip: ="Search"
         Width: =TextSearchBox1.Height
         X: =465
-        Y: =90
+        Y: =99
         ZIndex: =7
 
     Rectangle11 As rectangle:
@@ -167,10 +170,11 @@
 
     Image5_1 As image:
         BorderColor: =RGBA(255, 255, 255, 1)
-        BorderThickness: =2
+        BorderThickness: =4
         Height: =70
         Image: ='IMS LOGO'
         ImagePosition: =ImagePosition.Fill
+        OnSelect: =Navigate(home)
         RadiusBottomLeft: =70
         RadiusBottomRight: =70
         RadiusTopLeft: =70
@@ -198,6 +202,7 @@
 
     Image10 As image:
         Height: =60
+        Image: ='Notification BELL img icon'
         Width: =88
         X: =552
         Y: =98

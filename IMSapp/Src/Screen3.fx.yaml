@@ -10,19 +10,24 @@ Screen3 As screen:
         FocusedBorderThickness: =0
         Height: =36
         Icon: =Icon.Import
-        OnSelect: =Navigate(login1)
+        OnSelect: =Navigate(welcome_1)
         Width: =49
-        X: =18
-        Y: =33
+        X: =12
+        Y: =15
         ZIndex: =1
 
     Image6 As image:
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =116
+        Height: =89
         Image: ='IMS logo 2'
         ImagePosition: =ImagePosition.Fill
-        Width: =272
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =244
         X: =368
+        Y: =26
         ZIndex: =2
 
     Button4 As button:
