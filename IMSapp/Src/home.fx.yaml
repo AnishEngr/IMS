@@ -41,15 +41,15 @@ home As screen:
     Image7 As image:
         BorderColor: =RGBA(0, 0, 0, 1)
         Fill: =RGBA(204, 231, 246, 1)
-        Height: =200
+        Height: =189
         Image: ='Dashboarad icon img'
         RadiusBottomLeft: =30
         RadiusBottomRight: =30
         RadiusTopLeft: =30
         RadiusTopRight: =30
-        Width: =215
+        Width: =210
         X: =24
-        Y: =471
+        Y: =482
         ZIndex: =4
 
     Image8 As image:
@@ -115,16 +115,16 @@ home As screen:
 
     Image7_3 As image:
         BorderColor: =RGBA(0, 0, 0, 1)
-        Height: =200
+        Height: =187
         Image: ='product logo img'
         OnSelect: =Navigate(BrowseScreen1)
         RadiusBottomLeft: =30
         RadiusBottomRight: =30
         RadiusTopLeft: =30
         RadiusTopRight: =30
-        Width: =215
+        Width: =198
         X: =419
-        Y: =482
+        Y: =494
         ZIndex: =11
 
     Image11 As image:
