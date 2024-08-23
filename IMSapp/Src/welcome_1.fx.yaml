@@ -38,6 +38,7 @@ welcome_1 As screen:
 
     Arrow1 As arrow.backArrow:
         Fill: =RGBA(0, 0, 0, 1)
+        OnSelect: =Navigate(welcome)
         X: =35
         Y: =302
         ZIndex: =5
