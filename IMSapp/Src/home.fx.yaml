@@ -26,8 +26,8 @@ home As screen:
         Size: =35
         Text: =" IMS"
         Width: =198
-        X: =207
-        Y: =16
+        X: =209
+        Y: =9
         ZIndex: =2
 
     Rectangle2 As rectangle:
@@ -53,11 +53,11 @@ home As screen:
         ZIndex: =4
 
     Image8 As image:
-        Height: =228
+        Height: =279
         Image: ='IMS Anime img'
         ImagePosition: =ImagePosition.Fill
         Width: =640
-        Y: =179
+        Y: =127
         ZIndex: =5
 
     Image7_1 As image:
@@ -80,7 +80,7 @@ home As screen:
         Height: =50
         Icon: =Icon.Settings
         Width: =50
-        X: =558
+        X: =567
         Y: =34
         ZIndex: =7
 
@@ -113,6 +113,7 @@ home As screen:
         BorderColor: =RGBA(0, 0, 0, 1)
         Height: =200
         Image: ='product logo img'
+        OnSelect: =Navigate(BrowseScreen1)
         RadiusBottomLeft: =30
         RadiusBottomRight: =30
         RadiusTopLeft: =30
