@@ -7,6 +7,8 @@
 
     LblAppName4 As label:
         Align: =Align.Center
+        Fill: =RGBA(0, 0, 0, 1)
+        Font: =Font.'Lato Black'
         Height: =88
         Size: =27
         Text: ="DashBoard"
@@ -32,11 +34,35 @@
             Y: =0
             ZIndex: =1
 
-            PowerBI1 As powerbi:
-                Height: =412
-                Width: =386
-                WorkspaceId: ="__my-workspace"
-                X: =129
-                Y: =189
-                ZIndex: =1
+    CompositeColumnChart1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =4
+
+        Title2 As label:
+            Align: =Align.Center
+            Height: =29
+            Text: ="Chart Title"
+            Width: =640
+            Y: =100
+            ZIndex: =5
+
+        ColumnChart1 As barChart:
+            Height: =468
+            Items: =Sheet1
+            Width: =640
+            Y: =135
+            ZIndex: =6
+
+        Legend1 As legend:
+            Height: =94
+            ItemColorSet: =ColumnChart1.ItemColorSet
+            Items: =ColumnChart1.SeriesLabels
+            Size: =18
+            Width: =557
+            X: =83
+            Y: =684
+            ZIndex: =7
 

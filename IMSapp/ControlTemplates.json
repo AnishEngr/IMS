@@ -27,6 +27,20 @@
     "OverridableProperties": {},
     "Version": "2.3.0"
   },
+  "barChart": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/barChart",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "barChart",
+    "OverridableProperties": {},
+    "Version": "2.3.0"
+  },
   "button": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -125,6 +139,20 @@
     "OverridableProperties": {},
     "Version": "1.0"
   },
+  "group": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/group",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": false,
+    "LastModifiedTimestamp": "0",
+    "Name": "group",
+    "OverridableProperties": {},
+    "Version": "1"
+  },
   "groupContainer": {
     "FirstParty": true,
     "Id": "http://microsoft.com/appmagic/groupContainer",
@@ -192,19 +220,19 @@
     "OverridableProperties": {},
     "Version": "2.5.1"
   },
-  "powerbi": {
+  "legend": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/powerBI",
+    "Id": "http://microsoft.com/appmagic/legend",
     "IsComponentTemplate": false,
     "IsCustomGroupControlTemplate": false,
     "IsPcfControl": false,
     "IsPremiumPcfControl": false,
     "IsWidgetTemplate": true,
     "LastModifiedTimestamp": "0",
-    "Name": "powerbi",
+    "Name": "legend",
     "OverridableProperties": {},
-    "Version": "2.4.0"
+    "Version": "2.1.0"
   },
   "rectangle": {
     "CustomGroupControlTemplateName": "",
