@@ -5,6 +5,7 @@
     "App": 1,
     "Arrow1": 150,
     "Arrow1_1": 82,
+    "Arrow2": 209,
     "AssignedTo_DataCard1": 57,
     "AssignedTo_DataCard2": 10,
     "AssignedTo_DataCard2_1": 106,
@@ -212,7 +213,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/30/2024 04:08:31",
+  "HeaderLastSavedDateTimeUTC": "08/30/2024 04:09:46",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "b784b1b8-0fa7-4b62-9ed1-9314ad66be1c": "\"/providers/microsoft.powerapps/apis/shared_googlesheet/connections/d2a20f1d657d49ff8b1c8ce529110071\""
@@ -305,6 +306,7 @@
     "App": {},
     "Arrow1": {},
     "Arrow1_1": {},
+    "Arrow2": {},
     "AssignedTo_DataCard1": {},
     "AssignedTo_DataCard2": {},
     "AssignedTo_DataCard2_1": {},
@@ -516,6 +518,7 @@
     "App": 0,
     "Arrow1": 12,
     "Arrow1_1": 12,
+    "Arrow2": 0,
     "AssignedTo_DataCard1": 67,
     "AssignedTo_DataCard2": 96,
     "AssignedTo_DataCard2_1": 96,

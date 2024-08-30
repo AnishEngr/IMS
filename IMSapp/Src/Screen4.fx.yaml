@@ -101,3 +101,12 @@
             Y: =400
             ZIndex: =11
 
+    Arrow2 As arrow.backArrow:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =60
+        OnSelect: =Navigate(home)
+        Width: =60
+        X: =12
+        Y: =14
+        ZIndex: =12
+
